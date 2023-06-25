@@ -1,0 +1,108 @@
+// .footer {
+//   padding: 60px 0 60px;
+//   background: var(--bgcolor-primary);
+// }
+// .footer__address {
+//   padding-top: 20px;
+// }
+// .footer__address-list {
+//   display: inline-block;
+//   font-family: var(--font-text-primary);
+//   font-style: normal;
+//   font-size: 0.875em;
+//   line-height: 1.7142;
+//   letter-spacing: 0.03em;
+//   color: rgba(255, 255, 255);
+//   /* width: 246px; */
+// }
+// .footer__address-item {
+//   padding-bottom: 9px;
+// }
+// .footer__address-link {
+//   color: rgba(255, 255, 255, 0.6);
+// }
+// .footer__address-link:hover {
+//   color: var(--color-text-primary);
+// }
+// .link-list--padding {
+//   padding-top: 12px;
+//   padding-left: 0;
+//   padding-right: 0;
+// }
+// .footer__social .link-list__item {
+//   padding: 0;
+//   padding-right: 5px;
+// }
+// .footer__social-title {
+//   color: var(--color-text-light);
+//   /* font-style: normal; */
+//   font-weight: 700;
+//   font-size: 0.875rem;
+//   line-height: 1.1428;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+//   padding-top: 1em;
+//   padding-bottom: 0.625em;
+//   text-align: left;
+// }
+// .footer__flex {
+//   gap: 70px;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+// }
+
+.footer {
+  padding: 60px 0 60px;
+  background: var(--bgcolor-primary);
+  &__address {
+    padding-top: 20px;
+  }
+  &__address-list {
+    display: inline-block;
+    // font-family: var(--font-text-primary);
+    font-style: normal;
+    // font-size: 0.875rem;
+    // line-height: 1.7142;
+    // letter-spacing: 0.03em;
+    color: rgba(255, 255, 255);
+  }
+  &__address-item {
+    padding-bottom: 9px;
+  }
+  &__address-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__address-link:hover {
+    color: var(--color-text-primary);
+  }
+  // .link-list--padding {
+  //   padding-top: 12px;
+  //   padding-left: 0;
+  //   padding-right: 0;
+  // }
+  &__social .social__item {
+    padding: 0;
+    padding-right: 5px;
+  }
+  &__social-title {
+    color: var(--color-text-light);
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 0.625em;
+    text-align: left;
+  }
+  &__social-list {
+    padding-top: 12px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &__flex {
+    gap: 70px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

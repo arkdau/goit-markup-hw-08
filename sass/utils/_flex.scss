@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+.wrap {
+  flex-wrap: wrap;
+  padding-top: 50px;
+  // outline: 2px var(--style-outline) var(--color-outline-section);
+}

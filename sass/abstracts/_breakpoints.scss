@@ -1,0 +1,22 @@
+// 700px, 900px, 1440px
+$breakpoints-up: (
+  'medium': 43.75rem,
+  'large': 56.25rem,
+  'xlarge': 90rem,
+);
+
+@mixin breakpoints($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+// @media (min-width: 960px) {
+// :root {
+// --fs-1: 1rem;
+// --fs-2: 1.618rem;
+// --fs-3: 2.618rem;
+// --fs-4: 4.236rem;
+// --fs-5: 6.854rem;
+// --fs-small: 0.618rem;
+// }

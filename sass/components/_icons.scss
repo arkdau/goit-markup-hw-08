@@ -1,0 +1,36 @@
+.icon {
+  /* position: absolute; */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon__container {
+  position: relative;
+  left: 0px;
+  top: 0;
+  margin-bottom: 10px;
+}
+.icon__name {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 12px;
+  top: 28px;
+}
+.icon__phone {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 12px;
+  top: 28px;
+}
+.icon__email {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 12px;
+  top: 28px;
+}

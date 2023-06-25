@@ -1,0 +1,18 @@
+.contact {
+  //   &__list {
+  //   }
+  //   &__item {
+  //   }
+  &__link {
+    display: flex;
+    align-items: center;
+    color: var(--color-text-secondary);
+  }
+  &__link:hover {
+    --color-icon-select: var(--color-text-primary);
+    color: var(--color-text-primary);
+  }
+  &__icon {
+    margin-right: 10px;
+  }
+}

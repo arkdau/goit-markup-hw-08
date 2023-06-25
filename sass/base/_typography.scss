@@ -1,0 +1,161 @@
+h1 {
+  font-weight: 900;
+  font-size: var(--fs-4);
+  // font-size: 2.75rem;
+  line-height: 1.3636;
+  letter-spacing: 0.06em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: var(--fs-3);
+  // font-size: 2.25rem;
+  // line-height: 1.1666;
+  padding-bottom: 3.125rem;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: var(--fs-2);
+  // font-size: 1rem;
+  // line-height: 1.18;
+}
+
+.small {
+  font-weight: 400;
+  font-size: var(--fs-small);
+}
+
+body {
+  font-weight: 400;
+  font-size: var(--fs-small);
+  font-style: normal;
+  letter-spacing: 0.03em;
+  line-height: 1.7142;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-top: 0;
+}
+// h2,
+// h3 {
+// letter-spacing: 0.03em;
+// }
+p {
+  margin-top: 0;
+}
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+// h1 {
+  // font-size: 2.75em;
+// }
+// h2 {
+//   font-size: 1.9629em;
+// }
+// h3 {
+//   font-size: 1.401em;
+// }
+
+// h1,
+// h2,
+// h3 {
+// font-weight: normal;
+// }
+
+html {
+  font-family: 'Roboto';
+}
+
+/////////////////////////
+///
+
+// h3 {
+// }
+// h2 {
+// }
+// h1 {
+// }
+
+/* extra styling */
+
+// h1,
+// h2,
+// h3 {
+// line-height: 1;
+// }
+
+// .text {
+// .font {
+//   &__weight {
+//     font-weight: 700;
+//   }
+//   &__weight--small {
+//     font-weight: 500;
+//   }
+//   &__weight--large {
+//     font-weight: 900;
+//   }
+//   &__size {
+//     font-size: 1rem;
+//   }
+//   &__size--small {
+//     font-size: 0.875rem;
+//   }
+//   &__size--large {
+//     font-size: 2.25rem;
+//   }
+//   &__size--XL {
+//     font-size: 2.75rem;
+//   }
+//   &__line-height {
+//     line-height: 1.1666;
+//   }
+//   &__line-height--small {
+//     line-height: 1.1428;
+//   }
+//   &__line-height--large {
+//     line-height: 1.18;
+//   }
+//   &__line-height--XL {
+//     line-height: 1.3636;
+//   }
+//   &__letter-spacing {
+//     letter-spacing: 0.03em;
+//   }
+//   &__letter-spacing--narrow {
+//     letter-spacing: 0.02em;
+//   }
+//   &__letter-spacing--wide {
+//     letter-spacing: 0.06em;
+//   }
+// }
+
+// }
+
+// header
+// .hdr {
+//   .text {
+//     .font {
+//       &__weight--small
+//     }
+//   }
+// }
+
+// .h {
+// &__font-weight {
+// font-weight: 900;
+// }
+// &__font-size {
+// }
+// &__line-height {
+// }
+// &__letter-spacing {
+// }
+// }
