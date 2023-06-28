@@ -1,5 +1,9 @@
 .logo {
-  &__font {
+  // position: absolute;
+  // z-index: -1;
+  // top: -10px;
+  // left: -180px;
+    &__font {
     font-family: var(--font-text-secondary);
     color: var(--color-text-primary);
     font-weight: 700;

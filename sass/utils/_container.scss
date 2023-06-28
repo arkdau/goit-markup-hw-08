@@ -1,4 +1,14 @@
+
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
