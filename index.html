@@ -16,13 +16,49 @@
   <!-- body -->
   <body>
     <!-- header  -->
-    <header class="hdr">
-      <div class="container flex">
-        <nav class="flex hdr__flex">
-          <a href="" class="logo logo__font"
-            >Web<span class="logo__font logo__font--black">Studio</span></a
+    <header class="hdr container">
+      <div class="flex hdr__flex">
+        <a href="" class="logo logo__font hdr__logo"
+          >Web<span class="logo__font logo__font--black">Studio</span></a
+        >
+        <nav>
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
           >
-          <ul class="flex hdr__menu-list">
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110
+                2H4a1 1 0 01-1-1zM3 10a1 1 0 
+                011-1h12a1 1 0 110 2H4a1 1 0 
+                01-1-1zM3 15a1 1 0 011-1h12a1 1 0 
+                110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <!-- <ul class="flex hdr__menu-list"> -->
+          <!--   <li class="hdr__menu-item"> -->
+          <!--     <a href="./index.html" class="hdr__menu-link is-active">Agencja</a> -->
+          <!--   </li> -->
+          <!---->
+          <!--   <li class="hdr__menu-item"> -->
+          <!--     <a href="./portfolio.html" class="hdr__menu-link">Portfolio</a> -->
+          <!--   </li> -->
+          <!--   <li class="hdr__menu-item"> -->
+          <!--     <a href="#" class="hdr__menu-link">Kontakt</a> -->
+          <!--   </li> -->
+          <!-- </ul> -->
+
+          <ul class="menu">
             <li class="hdr__menu-item">
               <a href="./index.html" class="hdr__menu-link is-active">Agencja</a>
             </li>
@@ -35,7 +71,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="flex contact__list">
+        <ul class="menu flex contact__list">
           <li class="contact__item">
             <a href="mailto:info@devstudio.com" class="contact__link">
               <svg width="16" height="12" class="contact__icon">
@@ -67,7 +103,7 @@
       <!-- Section 0 - Nasze atrybuty  -->
       <section class="section">
         <div class="container">
-          <ul class="flex">
+          <ul class="flex flex--dir-column">
             <li>
               <div class="card__box">
                 <svg class="card__icon" width="70" height="70">
@@ -121,7 +157,7 @@
       </section>
       <!-- end Section - 0 -->
       <!-- Section 1 - Czym się zajmujemy -->
-      <section class="section section--pt">
+      <section class="section section--hiden section--pt">
         <div class="container">
           <h2>Czym się zajmujemy</h2>
           <ul class="flex">
@@ -155,10 +191,20 @@
       <section class="section" style="background: #f5f4fa">
         <div class="container">
           <h2>Nasz zespół</h2>
-          <ul class="flex">
+          <ul class="flex flex--dir-column">
             <li>
               <figure class="card">
-                <img src="./images/section2_1.jpg" alt="John Doe - Product Designer" height="260" />
+                <img
+                  src="./images/section2_1.png"
+                  srcset="
+                    ./images/section2_1.png     450w,
+                    ./images/section2_1@x2.png  900w,
+                    ./images/section2_1@x3.png 1350w
+                  "
+                  sizes="93.75vw"
+                  alt="John Doe - Product Designer"
+                  height="auto"
+                />
                 <figcaption class="card__caption">
                   <h3 class="card__title-secondary">John Doe</h3>
                   <p class="card__description-secondary">Product Designer</p>
@@ -224,9 +270,15 @@
             <li>
               <figure class="card">
                 <img
-                  src="./images/section2_2.jpg"
+                  src="./images/section2_2.png"
+                  srcset="
+                    ./images/section2_2.png     450w,
+                    ./images/section2_2@x2.png  900w,
+                    ./images/section2_2@x3.png 1350w
+                  "
+                  sizes="93.75vw"
                   alt="John Doe - Frontend Developer"
-                  height="260"
+                  height="auto"
                 />
                 <figcaption class="card__caption">
                   <h3 class="card__title-secondary">John Doe</h3>
@@ -292,7 +344,17 @@
             </li>
             <li>
               <figure class="card">
-                <img src="./images/section2_3.jpg" alt="John Doe - Marketing" height="260" />
+                <img
+                  src="./images/section2_3.png"
+                  srcset="
+                    ./images/section2_3.png     450w,
+                    ./images/section2_3@x2.png  900w,
+                    ./images/section2_3@x3.png 1350w
+                  "
+                  sizes="93.75vw"
+                  alt="John Doe - Marketing"
+                  height="auto"
+                />
                 <figcaption class="card__caption">
                   <h3 class="card__title-secondary">John Doe</h3>
                   <p class="card__description-secondary">Marketing</p>
@@ -357,7 +419,17 @@
             </li>
             <li>
               <figure class="card">
-                <img src="./images/section2_4.jpg" alt="John Doe - UI Designer" height="260" />
+                <img
+                  src="./images/section2_4.png"
+                  srcset="
+                    ./images/section2_4.png     450w,
+                    ./images/section2_4@x2.png  900w,
+                    ./images/section2_4@x3.png 1350w
+                  "
+                  sizes="93.75vw"
+                  alt="John Doe - UI Designer"
+                  height="auto"
+                />
                 <figcaption class="card__caption">
                   <h3 class="card__title-secondary">John Doe</h3>
                   <p class="card__description-secondary">UI Designer</p>
@@ -430,7 +502,7 @@
     <section id="clients" class="section">
       <div class="container">
         <h2>Nasi klienci</h2>
-        <ul class="flex">
+        <ul class="flex wrap">
           <!-- logo client 1 -->
           <li class="card__logo">
             <!-- <figure class="card__logo"> -->
@@ -527,7 +599,7 @@
     <!-- end Nasi klienci -->
     <!-- footer -->
     <footer class="footer">
-      <div class="container flex footer__flex">
+      <div class="container flex flex--dir-column footer__flex">
         <div>
           <a href="" class="logo__font"
             >Web<span class="logo__font logo__font--white">Studio</span></a
@@ -720,6 +792,59 @@
     </div>
     <!-- end modal-->
     <!-- end footer -->
+    <!-- mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10
+            8.586l4.293-4.293a1 1 0 111.414 1.414L11.414
+            10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="" class="link">Agencja</a></li>
+        <li><a href="" class="link">Portfolio</a></li>
+        <li><a href="" class="link">Kontakt</a></li>
+      </ul>
+      <ul class="flex contact__list">
+        <li class="contact__item">
+          <a href="mailto:info@devstudio.com" class="contact__link">
+            <svg width="16" height="12" class="contact__icon">
+              <use href="./images/icons.svg#icon-envelope"></use></svg
+            >info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a href="tel:+48&nbsp111&nbsp111&nbsp111" class="contact__link">
+            <svg width="10" height="16" class="contact__icon">
+              <use href="./images/icons.svg#icon-smartphone"></use></svg
+            >+48 111 111 111
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- end mobile menu -->
+
+    <!-- script - mobile menu -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+    <!-- script - modal window -->
     <script src="./js/modal.js"></script>
   </body>
   <!-- body -->

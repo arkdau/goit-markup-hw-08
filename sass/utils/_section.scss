@@ -1,3 +1,8 @@
 .section {
-  padding: 94px 0;
+  // padding: 94px 0;
+  padding: 3.214em 0 4.286em;
+
+  &--hiden {
+    display: none;
+  }
 }

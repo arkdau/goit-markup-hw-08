@@ -2,6 +2,12 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  &--dir-column {
+    flex-direction: column;
+  }
+  // &--wrap {
+  //   flex-wrap: wrap;
+  // }
   
   // justify-content: space-between;
   // &--jc-flex-end {
@@ -10,6 +16,7 @@
 }
 .wrap {
   flex-wrap: wrap;
-  padding-top: 50px;
+  // padding-top: 50px;
+  justify-content: space-between;
   // outline: 2px var(--style-outline) var(--color-outline-section);
 }

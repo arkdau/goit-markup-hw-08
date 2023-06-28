@@ -1,18 +1,19 @@
 @use './../abstracts' as *;
 
-
 //////////////////////////////////////////////////////
 ///
 
 .card {
-  width: 270px;
+  // width: 270px;
+  width: 93.75vw;
   background: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
     0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
   &__logo {
     box-sizing: border-box;
-    width: 170px;
+    // width: 170px;
+    width: 46.67%;
     padding: 16px 0 12px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -43,12 +44,17 @@
   &__title-primary {
     font-weight: 700;
     text-transform: capitalize;
-    text-align: left;
+    // text-align: left;
     font-size: 0.875rem;
     line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+  }
+  @media screea and (min-width: 768px) {
+    &__title-primary {
+      text-align: left;
+    }
   }
   &__title-secondary {
     font-weight: 500;
