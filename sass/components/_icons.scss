@@ -6,31 +6,35 @@
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-}
-.icon__container {
-  position: relative;
-  left: 0px;
-  top: 0;
-  margin-bottom: 10px;
-}
-.icon__name {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 12px;
-  top: 28px;
-}
-.icon__phone {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 12px;
-  top: 28px;
-}
-.icon__email {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 12px;
-  top: 28px;
+  &__container {
+    position: relative;
+    left: 0px;
+    top: 0;
+    margin-bottom: 10px;
+  }
+  &__name {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 28px;
+  }
+  &__phone {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 28px;
+  }
+  &__email {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 28px;
+  }
+  &__cross:hover {
+    --color-icon-select: #2196f3;
+    --color-icon: #fff;
+  }
 }

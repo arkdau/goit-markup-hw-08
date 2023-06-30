@@ -271,6 +271,9 @@ input[type='checkbox'] {
   &__label-name {
     margin-bottom: 4px;
   }
+  &__label-name:hover {
+    color: var(--color-text-primary);
+  }
 
   &__input-name {
     box-sizing: border-box;
@@ -292,6 +295,9 @@ input[type='checkbox'] {
 
   &__label-phone {
     margin-bottom: 4px;
+  }
+  &__label-phone:hover {
+    color: var(--color-text-primary);
   }
 
   &__input-phone {
@@ -315,6 +321,9 @@ input[type='checkbox'] {
   &__label-email {
     margin-bottom: 4px;
   }
+  &__label-email:hover {
+    color: var(--color-text-primary);
+  }
 
   &__input-email {
     box-sizing: border-box;
@@ -337,9 +346,13 @@ input[type='checkbox'] {
   &__label-comment {
     text-align: left;
   }
+  &__label-comment:hover {
+    color: var(--color-text-primary);
+  }
   &__textarea-comment {
     box-sizing: border-box;
-    width: 448px;
+    // width: 448px;
+    width: 370px;
     height: 120px;
     font-family: var(--font-text-primary);
     font-weight: 400;
@@ -373,7 +386,8 @@ input[type='checkbox'] {
     display: inline-flex;
     cursor: pointer;
     position: relative;
-    margin-left: 15px;
+    // margin-left: 15px;
+    margin-left: 0;
     align-items: center;
   }
   &__checkbox > input {
@@ -422,7 +436,8 @@ input[type='checkbox'] {
   &__checkbox &__checkbox-label {
     padding-left: 8px;
     font-weight: 400;
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.03em;
     color: #757575;
   }

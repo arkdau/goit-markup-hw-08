@@ -20,3 +20,22 @@ $breakpoints-up: (
 // --fs-5: 6.854rem;
 // --fs-small: 0.618rem;
 // }
+
+
+// $breakpoints: (
+//   sm: 30em,
+//   md: 50em,
+//   lg: 75em,
+// );
+//
+// @mixin media-query($key) {
+//   $size: map-get($breakpoints, $key);
+//
+//   @if ($size) {
+//     @media only screen and (min-width: $size) {
+//       @content;
+//     }
+//   } @else {
+//     @error '`#{$key}` does not exist in the $breakpoints';
+//   }
+// }

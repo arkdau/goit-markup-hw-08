@@ -2,6 +2,7 @@
 .newsletter__flex {
   gap: 12px;
   align-items: start;
+  margin-top: 1.4285em;
 }
 
 // .form-newsletter {
@@ -86,6 +87,7 @@
     font-size: 1rem;
     letter-spacing: 0.03em;
     padding: 15px 16px;
+    margin-bottom: 0.625em;
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

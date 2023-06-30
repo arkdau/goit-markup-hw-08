@@ -10,6 +10,12 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
     0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
+@media (min-width: 768px) and (max-width: 1199px) {
+      width: 354px;
+  }
+  @media (min-width: 1200px) {
+      width: 270px;
+  }
   &__logo {
     box-sizing: border-box;
     // width: 170px;
@@ -34,9 +40,20 @@
     border-radius: 4px;
     // width: 270px;
     width: 93.75vw;
-    height: 120px;
+    // height: 120px;
+    height: auto;
     display: inline-flex;
     margin-bottom: 30px;
+  }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    &__box {
+      width: 354px;
+    }
+  }
+  @media (min-width: 1200px) {
+    &__box {
+      width: 270px;
+    }
   }
   &__icon {
     margin: 25px auto;
@@ -51,7 +68,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-  @media screea and (min-width: 768px) {
+  @media (min-width: 768px) {
     &__title-primary {
       text-align: left;
     }
@@ -75,7 +92,7 @@
     margin-bottom: 0;
   }
   &__caption {
-    padding-top: 30px;
+    padding-top: 20px;
     border: none;
     border-left: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -110,8 +127,10 @@
   }
   &__image {
     position: relative;
-    width: 370px;
-    height: 294px;
+    // width: 370px;
+    // height: 294px;
+    width: 100%;
+    height: auto;
     overflow: hidden;
   }
   &__overlay {
