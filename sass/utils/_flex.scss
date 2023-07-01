@@ -8,15 +8,36 @@
   // &--wrap {
   //   flex-wrap: wrap;
   // }
-  
+
   // justify-content: space-between;
   // &--jc-flex-end {
   //   justify-content: flex-end;
   // }
 }
+
 .wrap {
   flex-wrap: wrap;
   // padding-top: 50px;
-  justify-content: space-between;
+  justify-content: center;
   // outline: 2px var(--style-outline) var(--color-outline-section);
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  // .wrap {
+  //   justify-content: center;
+  // }
+  // .flex--dir-column {
+  //   flex-direction: row;
+  // }
+  // .flex {
+  //   flex-wrap: wrap;
+  // }
+}
+@media (min-width: 1200px) {
+  .flex {
+    gap: 30px;
+  }
+  .wrap {
+    flex-wrap: nowrap;
+  }
 }

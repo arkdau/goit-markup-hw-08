@@ -6,3 +6,14 @@
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+  .section {
+    // padding: 6.7142em 0 4.286em;
+    padding: 5.7142em 0 6.7142em;
+  }
+  .section--hiden {
+    display: block;
+  }
+}

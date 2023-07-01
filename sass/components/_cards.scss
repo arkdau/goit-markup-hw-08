@@ -10,21 +10,19 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
     0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
-@media (min-width: 768px) and (max-width: 1199px) {
-      width: 354px;
-  }
-  @media (min-width: 1200px) {
-      width: 270px;
-  }
+
   &__logo {
     box-sizing: border-box;
     // width: 170px;
-    width: 46.67%;
-    padding: 16px 0 12px;
+    // width: 46.67%;
+    width: 44.67%;
+    // padding: 16px 0 12px;
+    padding: 1.1428em 0 0.8571em;
     border: 1px solid #afb1b8;
     border-radius: 4px;
     display: inline-block;
   }
+
   &__logo:hover {
     border-color: #2196f3;
     --color-icon-select: #2196f3;
@@ -45,16 +43,7 @@
     display: inline-flex;
     margin-bottom: 30px;
   }
-  @media (min-width: 768px) and (max-width: 1199px) {
-    &__box {
-      width: 354px;
-    }
-  }
-  @media (min-width: 1200px) {
-    &__box {
-      width: 270px;
-    }
-  }
+
   &__icon {
     margin: 25px auto;
   }
@@ -68,11 +57,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-  @media (min-width: 768px) {
-    &__title-primary {
-      text-align: left;
-    }
-  }
+
   &__title-secondary {
     font-weight: 500;
     font-size: 1rem;
@@ -168,4 +153,54 @@
     margin: 0;
     background: rgba(47, 48, 58, 0.8);
   }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 354px;
+    &__logo {
+      width: 226px;
+    }
+    &__box {
+      width: 354px;
+    }
+    &__title-primary {
+      text-align: left;
+    }
+    &__description-primary {
+      width: 354px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    width: 270px;
+    &__logo {
+      width: 170px;
+    }
+    &__box {
+      width: 270px;
+    }
+    &__title-primary {
+      text-align: left;
+    }
+  }
+  // @media (min-width: 768px) and (max-width: 1199px) {
+  //     width: 354px;
+  //   }
+  // @media (min-width: 1200px) {
+  //   width: 270px;
+  // }
+  // @media (min-width: 768px) and (max-width: 1199px) {
+  //     &__box {
+  //       width: 354px;
+  //     }
+  //   }
+  // @media (min-width: 1200px) {
+  //   &__box {
+  //     width: 270px;
+  //   }
+  // }
+  // @media (min-width: 768px) {
+  //     &__title-primary {
+  //       text-align: left;
+  //     }
+  //   }
 }
