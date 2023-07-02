@@ -41,19 +41,16 @@
   &__link:hover {
     --color-icon-select: #2196f3;
     --color-icon: #fff;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 1199px) {
-  
 }
 @media (min-width: 1200px) {
-  
 }
-
-
-
 
 // &__link {
 //     align-items: center;

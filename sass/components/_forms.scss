@@ -273,6 +273,9 @@ input[type='checkbox'] {
   }
   &__label-name:hover {
     color: var(--color-text-primary);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &__input-name {
@@ -288,9 +291,15 @@ input[type='checkbox'] {
   }
   &__input-name:focus {
     border: 1px solid var(--bgcolor-select);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
   &__input-name:focus + .icon__name {
     --color-icon-select: var(--bgcolor-select);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &__label-phone {
@@ -298,6 +307,9 @@ input[type='checkbox'] {
   }
   &__label-phone:hover {
     color: var(--color-text-primary);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &__input-phone {
@@ -313,9 +325,15 @@ input[type='checkbox'] {
   }
   &__input-phone:focus {
     border: 1px solid var(--bgcolor-select);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
   &__input-phone:focus + .icon__phone {
     --color-icon-select: var(--bgcolor-select);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &__label-email {
@@ -323,6 +341,9 @@ input[type='checkbox'] {
   }
   &__label-email:hover {
     color: var(--color-text-primary);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &__input-email {
@@ -338,9 +359,15 @@ input[type='checkbox'] {
   }
   &__input-email:focus {
     border: 1px solid var(--bgcolor-select);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
   &__input-email:focus + .icon__email {
     --color-icon-select: var(--bgcolor-select);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &__label-comment {
@@ -348,6 +375,9 @@ input[type='checkbox'] {
   }
   &__label-comment:hover {
     color: var(--color-text-primary);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
   &__textarea-comment {
     box-sizing: border-box;
@@ -369,6 +399,9 @@ input[type='checkbox'] {
   }
   &__textarea-comment:focus {
     border: 1px solid var(--bgcolor-select);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   /* checkbox ------------------------------- */
@@ -408,6 +441,9 @@ input[type='checkbox'] {
   &__checkbox > input:focus {
     outline-offset: 1px;
     outline: #2196f3 solid 2px;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
   &__checkbox > input:checked {
     border: 2px solid #2196f3;

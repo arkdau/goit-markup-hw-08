@@ -37,9 +37,15 @@
   &__menu-link:focus,
   &__menu-link:active {
     color: var(--color-text-primary);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
   &__btn:hover {
     color: var(--color-text-primary);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 }
 
@@ -81,6 +87,9 @@
   .link:hover,
   .link:focus {
     text-decoration: underline;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &-toggle {
@@ -108,6 +117,9 @@
   &-toggle:hover,
   &-toggle:focus {
     background-color: rgba(0, 0, 0, 0.1);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   &-container {
@@ -117,7 +129,8 @@
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    // background-color: #3f51b5;
+    background-color: #ffffff;
     z-index: 999;
 
     transform: translateX(100%);
@@ -132,7 +145,8 @@
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+    // color: #fff;
+    color: black;
   }
 }
 
@@ -147,6 +161,20 @@
   padding: 10px;
   color: #fff;
   text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  color: black;
+}
+
+.mobile-menu .link:hover {
+  color: var(--color-text-primary);
+}
+
+.mobile-menu__flex {
+  display: block;
+  font-size: 34px;
+  letter-spacing: 0.02em;
+  margin-top: 302px;
 }
 
 // .mobile-menu__btn {
