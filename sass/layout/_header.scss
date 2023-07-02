@@ -190,7 +190,7 @@
   // cursor: hand;
   position: relative;
 }
-.mobile-menu__btn:hover() {
+.mobile-menu__btn:hover {
   color: var(--color-text-primary);
   transition-property: transform;
   transition-duration: 250ms;
