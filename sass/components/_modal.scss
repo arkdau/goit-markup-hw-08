@@ -7,7 +7,8 @@
   left: 50%;
   // width: 528px;
   // height: 581px;
-  width: 450px;
+  // width: 450px;
+  width: min(100% - 2em, 30rem);
   height: 609px;
   background-color: var(--bgcolor-light);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

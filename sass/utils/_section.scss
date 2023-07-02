@@ -12,6 +12,10 @@
   .section {
     // padding: 6.7142em 0 4.286em;
     padding: 5.7142em 0 6.7142em;
+    // padding: 5.7142em 0 0;
+  }
+  section.section:nth-child(2) {
+    padding-bottom: 0;
   }
   .section--hiden {
     display: block;

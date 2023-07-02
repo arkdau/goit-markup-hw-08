@@ -57,6 +57,9 @@
     text-transform: uppercase;
     margin-bottom: 10px;
   }
+  &__title-text_align {
+    text-align: center;
+  }
 
   &__title-secondary {
     font-weight: 500;
@@ -180,6 +183,9 @@
     }
     &__title-primary {
       text-align: left;
+    }
+    &__title-text_align {
+      text-align: center;
     }
   }
   // @media (min-width: 768px) and (max-width: 1199px) {

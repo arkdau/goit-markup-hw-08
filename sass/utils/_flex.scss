@@ -5,6 +5,7 @@
   &--dir-column {
     flex-direction: column;
   }
+
   // &--wrap {
   //   flex-wrap: wrap;
   // }
@@ -23,6 +24,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+  .flex {
+    &--dir-column {
+      flex-direction: row;
+    }
+    &--dir-column > div:nth-child(3) {
+      display: inline-flex;
+    }
+  }
   // .wrap {
   //   justify-content: center;
   // }
@@ -36,8 +45,15 @@
 @media (min-width: 1200px) {
   .flex {
     gap: 30px;
+    &--dir-column {
+      flex-direction: row;
+    }
   }
   .wrap {
     flex-wrap: nowrap;
   }
 }
+
+// .flex--dir-column > div:nth-child(3) {
+// display: inline-flex;
+// }

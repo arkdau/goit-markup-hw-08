@@ -1,8 +1,9 @@
 .contact {
   //   &__list {
   //   }
-  //   &__item {
-  //   }
+    &__item {
+      // margin-bottom: 10px;
+    }
   &__link {
     display: flex;
     align-items: center;
@@ -15,4 +16,16 @@
   &__icon {
     margin-right: 10px;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .contact__list {
+    display: block;
+  }
+  .contact__item {
+    margin-bottom: 7px;
+  }
+}
+
+@media (min-width: 1200px) {
 }

@@ -38,6 +38,9 @@
   &__menu-link:active {
     color: var(--color-text-primary);
   }
+  &__btn:hover {
+    color: var(--color-text-primary);
+  }
 }
 
 .is-active {
@@ -152,3 +155,18 @@
 //   align-items: center;
 //   justify-content: flex-end;
 // }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hdr {
+    padding: 21px 0 21px;
+  }
+  .hdr__flex {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hdr__flex {
+    // justify-content: space-around;
+    justify-content: space-between;
+  }
+}
