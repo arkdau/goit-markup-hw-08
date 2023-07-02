@@ -446,6 +446,7 @@ html {
 }
 .contact__icon {
   margin-right: 10px;
+  display: none;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .contact__list {
@@ -453,6 +454,14 @@ html {
   }
   .contact__item {
     margin-bottom: 7px;
+  }
+  .contact__icon {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .contact__icon {
+    display: block;
   }
 }
 /* main - hero ------------------------------ */

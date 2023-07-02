@@ -20,7 +20,7 @@
   }
   &__icon {
     margin-right: 10px;
-    // display: none;
+    display: none;
   }
   &__list {
     // display: block;
@@ -34,7 +34,13 @@
   .contact__item {
     margin-bottom: 7px;
   }
+  .contact__icon {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
+  .contact__icon {
+    display: block;
+  }
 }
