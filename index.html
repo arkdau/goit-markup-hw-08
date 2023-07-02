@@ -33,6 +33,7 @@
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
+              class="hdr__btn"
             >
               <path
                 fill-rule="evenodd"
@@ -103,7 +104,7 @@
       <!-- Section 0 - Nasze atrybuty  -->
       <section class="section">
         <div class="container">
-          <ul class="flex flex--dir-column">
+          <ul class="flex wrap">
             <li>
               <div class="card__box">
                 <svg class="card__icon" width="70" height="70">
@@ -168,7 +169,9 @@
                 height="294"
                 class="block"
               />
-              <h3 class="card__title-primary card__label">Aplikacje komputerowe</h3>
+              <h3 class="card__title-primary card__title-text_align card__label">
+                Aplikacje komputerowe
+              </h3>
             </li>
             <li class="card__thumb">
               <img
@@ -177,11 +180,15 @@
                 height="294"
                 class="block"
               />
-              <h3 class="card__title-primary card__label">Aplikacje mobilne</h3>
+              <h3 class="card__title-primary card__title-text_align card__label">
+                Aplikacje mobilne
+              </h3>
             </li>
             <li class="card__thumb">
               <img src="./images/section1_3.jpg" alt="Paleta kolorów" height="294" class="block" />
-              <h3 class="card__title-primary card__label">Rozwiązania graficzne</h3>
+              <h3 class="card__title-primary card__title-text_align card__label">
+                Rozwiązania graficzne
+              </h3>
             </li>
           </ul>
         </div>
@@ -191,7 +198,7 @@
       <section class="section" style="background: #f5f4fa">
         <div class="container">
           <h2>Nasz zespół</h2>
-          <ul class="flex flex--dir-column">
+          <ul class="flex wrap">
             <li>
               <figure class="card">
                 <img
@@ -201,7 +208,7 @@
                     ./images/section2_1@x2.png  900w,
                     ./images/section2_1@x3.png 1350w
                   "
-                  sizes="93.75vw"
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 93.75vw"
                   alt="John Doe - Product Designer"
                   height="auto"
                 />
@@ -276,7 +283,7 @@
                     ./images/section2_2@x2.png  900w,
                     ./images/section2_2@x3.png 1350w
                   "
-                  sizes="93.75vw"
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 93.75vw"
                   alt="John Doe - Frontend Developer"
                   height="auto"
                 />
@@ -351,7 +358,7 @@
                     ./images/section2_3@x2.png  900w,
                     ./images/section2_3@x3.png 1350w
                   "
-                  sizes="93.75vw"
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 93.75vw"
                   alt="John Doe - Marketing"
                   height="auto"
                 />
@@ -426,7 +433,7 @@
                     ./images/section2_4@x2.png  900w,
                     ./images/section2_4@x3.png 1350w
                   "
-                  sizes="93.75vw"
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 93.75vw"
                   alt="John Doe - UI Designer"
                   height="auto"
                 />
@@ -785,13 +792,12 @@
               ></label
             >
           </div>
-          <!-- <button class="form-user__submit" type="submit" tabindex="6">Wyślij mnie</button> -->
-          <input class="form-user__submit" type="submit" value="Wyślij" tabindex="6" />
+          <button class="form-user__submit" type="submit" tabindex="6">Wyślij mnie</button>
+          <!-- <input class="form-user__submit" type="submit" value="Wyślij" tabindex="6" /> -->
         </form>
       </div>
     </div>
     <!-- end modal-->
-    <!-- end footer -->
     <!-- mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
@@ -801,6 +807,7 @@
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
+          class="mobile-menu__btn"
         >
           <path
             fill-rule="evenodd"
@@ -817,7 +824,14 @@
         <li><a href="" class="link">Portfolio</a></li>
         <li><a href="" class="link">Kontakt</a></li>
       </ul>
-      <ul class="flex contact__list">
+      <ul class="flex mobile-menu__flex contact__list">
+        <li>
+          <a href="tel:+48&nbsp111&nbsp111&nbsp111" class="contact__link">
+            <svg width="10" height="16" class="contact__icon">
+              <use href="./images/icons.svg#icon-smartphone"></use></svg
+            >+48 111 111 111
+          </a>
+        </li>
         <li class="contact__item">
           <a href="mailto:info@devstudio.com" class="contact__link">
             <svg width="16" height="12" class="contact__icon">
@@ -825,12 +839,22 @@
             >info@devstudio.com
           </a>
         </li>
-        <li>
-          <a href="tel:+48&nbsp111&nbsp111&nbsp111" class="contact__link">
-            <svg width="10" height="16" class="contact__icon">
-              <use href="./images/icons.svg#icon-smartphone"></use></svg
-            >+48 111 111 111
-          </a>
+      </ul>
+      <ul class="flex mobile-menu__social_list">
+        <li class="mobile-menu__social_item">
+          <a href="https://www.instagram.com/" class="mobile-menu__social_link">Instagram</a>
+        </li>
+        <li class="social-list__seperator"></li>
+        <li class="mobile-menu__social_item">
+          <a href="https://twitter.com/" class="mobile-menu__social_link">Twitter</a>
+        </li>
+        <li class="social-list__seperator"></li>
+        <li class="mobile-menu__social_item">
+          <a href="https://www.facebook.com/" class="mobile-menu__social_link">Facebook</a>
+        </li>
+        <li class="social-list__seperator"></li>
+        <li class="mobile-menu__social_item">
+          <a href="https://pl.linkedin.com/" class="mobile-menu__social_link">LinkedIn</a>
         </li>
       </ul>
     </div>
