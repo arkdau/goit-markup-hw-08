@@ -27,6 +27,16 @@
     display: flex;
     justify-content: center;
   }
+  &__list-seperator {
+    // display: block;
+    // top: 0;
+    width: 1px;
+    height: 26px;
+    background-color: var(--color-text-dark);
+    border-radius: 2px;
+    // color:  var(--color-text-dark);
+    opacity: 0.2;
+  }
   &__item {
     // display: inline-block;
     margin: 5px;

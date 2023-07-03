@@ -116,8 +116,7 @@
 @media (min-width: 768px) and (max-width: 1199px) {
   .newsletter {
     margin-right: auto;
-    margin-left: min((100vw - 450px)/2, 275px);
-    // display: inline-flex;
+    // margin-left: min((100vw - 450px)/2, 275px);
     &__input {
       width: 450px;
     }
